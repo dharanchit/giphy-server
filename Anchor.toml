@@ -1,0 +1,12 @@
+[programs.devnet]
+giphybackend = "3wHS5LXX1xXP76316c35GDi69NZc6piYj26EoyZJgn5D"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/anchit/.config/solana/id.json"
+
+[scripts]
+test = "node tests/giphybackend.js"
